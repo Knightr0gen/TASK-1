@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ outline: none;
+ box-sizing: border-box;
+ justify-content: center;
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+}
+
+body{ 
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+p{
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.login{
+  
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 100px 0;
+	
+	text-align: center;
+}
+	h1{
+		font-size: 40px;
+		transition-duration: 2s;
+		font-weight: 700;
+	}
+
+
+form{
+	padding: 20px 0;
+	position: relative;
+	z-index: 2;
+ }
+	.field{
+		display: block;
+		outline: 0;
+		background-color: black;
+		width: 250px;
+		
+    border-radius: 5px;
+    border-width: 0px;
+		padding: 10px 15px;
+		margin: 0 auto 20px auto;
+		text-align: center;
+		font-size: 18px;	
+		color: white;
+		
+		transition-duration: 0.5s;
+    font-weight: 500;
+  }
+		
+	
+		
+		.field:focus{
+			background-color: black;
+			width: 300px;
+			
+			color:white;
+    }
+    
+    .bttn{
+      border-radius: 10px;
+      padding: 10px 20px;
+      margin-left: 2%;
+      margin-right: 2%;
+      background-color: black;
+      color: white;
+      border: 2px solid #000000;
+      
+      border-width: 0px;
+      font-weight: 500;
+      transition-duration: 0.5s;
+    }
+  
+    
+    .bttn:hover {
+      background-color:white;
+      color: black;
+      border: 2px solid #000000;
+    }
+
+   .radio{
+     text-align: left;
+     margin-bottom: 20px;
+     margin-top: 10px;
+     
+   }
+   label{
+     font-weight: 500;
+     padding-right: 5px;
+   }
+   .g:hover {
+    background-color: #b81e1e;
+    color: white;
+    border: 2px solid  #b81e1e;
+  }
+  .f:hover {
+    background-color: #0f57c4;
+    color: white;
+    border: 2px solid  #0f57c4;
+  }
